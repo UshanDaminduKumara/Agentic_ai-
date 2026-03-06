@@ -37,4 +37,4 @@ A Modular AI chatbot built with **FastAPI** (Backend), **Streamlit** (Frontend),
 
 ## 🧪 Chatbot Demo — Without Web Search vs With Web Search
 
-![alt text](assets/demo.png)
+![alt text](assets/image.png)
