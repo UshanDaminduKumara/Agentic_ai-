@@ -1,5 +1,4 @@
 # End-to-End AI Agent Chatbot
-- still developing
 
 A Modular AI chatbot built with **FastAPI** (Backend), **Streamlit** (Frontend), and **langchain** (AI Orchestration). This project supports switching between LLM providers (Groq/OpenAI/Google) and includes a web-search tool for real-time information.
 
