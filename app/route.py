@@ -4,7 +4,7 @@ from agents.ai_agent import get_response_from_ai_agent
 
 router = APIRouter()
 
-ALLOWED_MODEL_NAMES = ["llama3-70b-8192", "gpt-4o-mini","llama-3.3-70b-versatile","gemini-2.5-flash-lite"]
+ALLOWED_MODEL_NAMES = ["llama3-70b-8192","llama-3.1-8b-instant","gemini-2.5-flash-lite"]
 
 @router.post("/chat")
 def chat_endpoint(request: RequestState):

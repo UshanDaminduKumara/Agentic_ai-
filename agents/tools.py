@@ -1,4 +1,7 @@
-from langchain_community.tools.tavily_search import TavilySearchResults
+from langchain_tavily import TavilySearch
+
 
 def get_tools(enabled: bool):
-    return [TavilySearchResults(max_results=2)] if enabled else []
+    tools = [TavilySearch(max_results=2)] if enabled else []
+    print("TOOLS RETURNED:", tools)
+    return tools
