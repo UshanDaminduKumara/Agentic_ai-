@@ -1,7 +1,7 @@
 # End-to-End AI Agent Chatbot
 - still developing
 
-A production-ready, modular AI chatbot built with **FastAPI** (Backend), **Streamlit** (Frontend), and **LangGraph** (AI Orchestration). This project supports switching between LLM providers (Groq/OpenAI) and includes a web-search tool for real-time information.
+A Modular AI chatbot built with **FastAPI** (Backend), **Streamlit** (Frontend), and **langchain** (AI Orchestration). This project supports switching between LLM providers (Groq/OpenAI/Google) and includes a web-search tool for real-time information.
 
 ## 🚀 Features
 - **Multi-Model Support:** Switch between Groq (Llama 3) and OpenAI (GPT-4o mini).
@@ -12,9 +12,9 @@ A production-ready, modular AI chatbot built with **FastAPI** (Backend), **Strea
 ---
 
 ## 🛠️ Tech Stack
-- **Frameworks:** FastAPI, LangGraph, LangChain
+- **Frameworks:** FastAPI,LangChain
 - **Frontend:** Streamlit
-- **LLM Providers:** Groq, OpenAI
+- **LLM Providers:** Groq, OpenAI,Google
 - **Search Tool:** Tavly AI
 
 ---
@@ -24,7 +24,7 @@ A production-ready, modular AI chatbot built with **FastAPI** (Backend), **Strea
 ├── agents/
 │   ├── llm_provider.py    # LLM initialization logic
 │   ├── tools.py           # Search tool configuration
-│   └── ai_agents.py       # LangGraph React Agent logic
+│   └── ai_agents.py       # Agent logic
 ├── app/
 │   ├── config.py          # API key & environment management
 │   ├── models.py          # Pydantic schemas for data validation
@@ -34,3 +34,6 @@ A production-ready, modular AI chatbot built with **FastAPI** (Backend), **Strea
 ├── main.py                # Backend entry point (Uvicorn)
 ├── requirements.txt       # Dependencies
 └── .env                   # API Keys (GitIgnored)
+
+## 🧪 Chatbot Demo — Without Web Search vs With Web Search
+![alt text](assets/demo.png)
